@@ -8,7 +8,7 @@ Scorpius is an extensible admin framework that provides structure, and simplicit
 #### Roadmap
 
 #### Contributing
-If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpius/core/issues) section of this project. 
+If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/core/issues) section of this project. 
 
 #### Discussion
 Join the community channel by following this link.
