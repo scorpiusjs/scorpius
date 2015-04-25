@@ -1,5 +1,4 @@
 # Scorpius `core`
-@(Scorpius)[Scorpius|Admin|CMS|Meteor.js|Meteor Packages]
 
 ![Scorpius][1]
 
