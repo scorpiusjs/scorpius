@@ -6,6 +6,7 @@
 Scorpius is an extensible admin framework that provides structure, and simplicity for building websites and mobile applications.
 
 #### Roadmap
+[![Stories in Ready](https://badge.waffle.io/scorpiusjs/core.png?label=ready&title=Ready)](http://waffle.io/scorpiusjs/core)
 
 #### Contributing
 If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/core/issues) section of this project. 
