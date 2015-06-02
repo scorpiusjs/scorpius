@@ -6,7 +6,7 @@
 Scorpius is an Admin Theme built with Orionjs at it's core. This theme provides features and components that are unique.
 
 #### Roadmap
-[![Stories in Ready](https://badge.waffle.io/scorpiusjs/core.png?label=ready&title=Ready)](http://waffle.io/scorpiusjs/core)
+[![Stories in Ready](https://badge.waffle.io/scorpiusjs/core.png?label=status:in-progress&title=Current Progress)](https://trello.com/b/S6Fef4by/scorpiusjs-roadmap)
 
 #### Contributing
 If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/core/issues) section of this project. 
