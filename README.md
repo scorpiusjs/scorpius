@@ -3,7 +3,7 @@
 
 ![Scorpius][1]
 
-Scorpius is an extensible admin framework that provides structure, and simplicity for building websites and mobile applications.
+Scorpius is an Admin Theme built with Orionjs at it's core. This theme provides features and components that are unique.
 
 #### Roadmap
 [![Stories in Ready](https://badge.waffle.io/scorpiusjs/core.png?label=ready&title=Ready)](http://waffle.io/scorpiusjs/core)
