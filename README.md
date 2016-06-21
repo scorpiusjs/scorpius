@@ -5,7 +5,7 @@
 
 [![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square)]() [![Trello](https://img.shields.io/badge/Trello-Roadmap-yellow.svg?style=flat-square)](https://trello.com/b/S6Fef4by/scorpius-roadmap)
 
-Scorpius is a Meteor Based Content Management System built for small and large scale applications. With full ES2015 support, the system is structured from the ground up with the latest advances in Javascript technology.
+Scorpius is a Meteor Based Admin System built for small and large scale applications. With full ES2015 support, the system is structured from the ground up with the latest advances in Javascript technology.
 
 Speed optimization and accuracy is at the core structure of Scorpius.
 
