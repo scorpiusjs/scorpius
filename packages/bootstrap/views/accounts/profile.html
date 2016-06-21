@@ -1,0 +1,18 @@
+<template name="orionBootstrapAccountProfile">
+  {{# Layout template="orionBootstrapSmallContentOffset" }}
+    {{# Layout template="orionBootstrapTitle" }}
+      {{ i18n 'accounts.updateProfile.title' }}
+    {{/ Layout }}
+
+    {{# Layout template="orionBootstrapContentContainer" }}
+      {{# autoForm schema=getSchema id="updateMyProfileForm" collection="Meteor.users" type="update" doc=getDoc }}
+        {{> afQuickFields name='profile' }}
+        <br>
+        <div class="text-right">
+          <a class="btn btn-default" href="{{ RouterLayerPathFor 'myAccount.index' }}">{{ i18n 'global.cancel' }}</a>
+          <button class="btn btn-primary">{{ i18n 'global.save' }}</button>
+        </div>
+      {{/ autoForm }}
+    {{/ Layout }}
+  {{/ Layout }}
+</template>

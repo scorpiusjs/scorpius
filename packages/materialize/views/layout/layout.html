@@ -1,0 +1,105 @@
+<template name="orionMaterializeLayout">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <div class="orion-materialize-admin">
+    <div class="sidebar">
+      {{# if dictionaryReady }}
+        {{> orionMaterializeSidebar }}
+      {{/ if }}
+    </div>
+    <main class="admin-content">
+      {{# if dictionaryReady }}
+        {{> yield }}
+      {{/ if }}
+      <br><br>
+    </main>
+  </div>
+  <style type="text/css">
+    body, html {
+      background-color: #f9f9f9;
+    }
+  </style>
+</template>
+
+<template name="orionMaterializeOutAdminLayout">
+  <div class="container orion-out-admin">
+    <div class="row">
+      <div class="col s12 m8 l6 offset-m2 offset-l3">
+        <br><br><br>
+        <div class="card-panel white">
+          {{> yield }}
+        </div>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    body, html {
+      background-color: #2196F3;
+    }
+  </style>
+</template>
+
+<template name="orionMaterializeContentContainer">
+  <div class="materialize-content-container">
+    {{> yield }}
+  </div>
+</template>
+
+<template name="orionMaterializeButtonsContainer">
+  <div class="materialize-buttons-container">
+    {{> yield }}
+  </div>
+</template>
+
+<template name="orionMaterializeHeaderContainer">
+  {{# with getAdminLink 'myAccount' }}
+    <ul id="navbar-user-dropdown" class="dropdown-content">
+      <li>
+        <span class="grey-text text-darken-1">
+          {{ title }}
+        </span>
+      </li>
+      {{# each childs }}
+        <li class="{{ RouterLayerIsActiveRoutePartial activeRouteRegex }}">
+          <a href="{{ RouterLayerPathFor routeName }}" class="grey-text text-darken-4">{{ title }}</a>
+        </li>
+      {{/ each }}
+      <li class="divider"></li>
+      <li><a href="#" class="grey-text text-darken-4 logout">{{ i18n 'global.logout' }}</a></li>
+    </ul>
+  {{/ with }}
+  <div class="{{ options 'materialize.headerColor' 'blue' }} header-container">
+    <nav class="{{ options 'materialize.headerColor' 'blue' }}">
+      <div class="nav-wrapper">
+        <ul class="left">
+          <li>
+            <a href="#" data-activates="nav-mobile" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+          </li>
+        </ul>
+        <ul class="right">
+          <li>
+            <a class="dropdown-button user-links-activator" href="#" data-activates="navbar-user-dropdown">
+              <i class="material-icons">person</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h4>
+      {{> yield }}
+    </h4>
+  </div>
+</template>
+
+<template name="orionMaterializeTabs">
+  <div class="materialize-tabs-container {{ options 'materialize.headerColor' 'blue' }}">
+    <ul class="tabs orion-materialize-tabs {{ options 'materialize.headerColor' 'blue' }}">
+      {{# each items }}
+        <li class="tab col"><a class="{{ class }}" href="#">{{ title }}</a></li>
+      {{/ each }}
+    </ul>
+  </div>
+  <br>
+</template>

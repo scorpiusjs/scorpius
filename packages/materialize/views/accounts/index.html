@@ -1,0 +1,33 @@
+<template name="orionMaterializeAccountIndex">
+  {{# Layout template=materializeHeader }}
+    {{ i18n 'accounts.myAccount.title' }}
+  {{/ Layout }}
+  {{# Layout template=materializeContent }}
+    <div class="row">
+      {{# if currentUser.profile.picture }}
+        <div class="col m2 s12">
+          <p>
+            <img class="profile-picture" src="{{ currentUser.profile.picture.url }}">
+          </p>
+        </div>
+      {{/ if }}
+      <div class="col m10 s12">
+        <p><b>{{ currentUser.profile.name }}</b></p>
+        {{# each currentUser.emails }}
+          <p>{{ address }}</p>
+        {{/ each }}
+        <br>
+        <p>
+        {{# each currentUser.roles }}
+          <span class="btn disabled">{{ this }}</span>
+        {{/ each }}
+        </p>
+      </div>
+    </div>
+  {{/ Layout }}
+  {{# Layout template=materializeButtons }}
+      <a class="logout waves-effect waves-light btn" href="#">{{ i18n 'global.logout' }}</a>
+      <a href="{{ RouterLayerPathFor 'myAccount.profile' }}" class="waves-effect waves-light btn">{{ i18n 'accounts.updateProfile.title' }}</a>
+      <a href="{{ RouterLayerPathFor 'myAccount.password' }}" class="waves-effect waves-light btn">{{ i18n 'accounts.changePassword.title' }}</a>
+  {{/ Layout }}
+</template>
