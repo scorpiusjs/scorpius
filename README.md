@@ -3,7 +3,7 @@
 
 ![Scorpius][1]
 
-[![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square)]() [![Trello](https://img.shields.io/badge/Trello-Roadmap-yellow.svg?style=flat-square)](https://trello.com/b/S6Fef4by/scorpius-roadmap)
+[![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square)]() [![Trello](https://img.shields.io/badge/Favro-Roadmap-yellow.svg?style=flat-square)](https://favro.com/organization/33e97eaca264ea0a2fd4dc99/01d1aa78db9d627ac3b21ef8)
 
 Scorpius is a Meteorbased Admin System built for small and large scale applications. With full ES2015 support, the system is structured from the ground up with the latest advances in Javascript technology.
 
