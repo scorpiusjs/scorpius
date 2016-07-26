@@ -10,12 +10,12 @@ Scorpius is a Meteorbased Admin System built for small and large scale applicati
 Speed optimization and accuracy is at the core structure of Scorpius.
 
 #### Contributing
-If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/scorpiusjs/issues) section of this project. 
+If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/scorpius/issues) section of this project. 
 
 #### Discussion
 Join the community channel by following this link.
 
-[![Join the chat at https://gitter.im/scorpiusjs/scorpiusjs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/scorpiusjs/core?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/scorpiusjs/scoprpius](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/scorpiusjs/core?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
   [1]: https://raw.githubusercontent.com/scorpiusjs/graphics/master/logos/scorpiusjs-logo.png
