@@ -1,0 +1,17 @@
+<template name="scorpiusMaterializePagesIndex">
+  {{# Layout template=materializeHeader }}
+    {{ i18n 'pages.index.title' }}
+  {{/ Layout }}
+  {{# Layout template=materializeContent }}
+    {{# if userHasPermission 'pages.insert' }}
+      <div class="floating-btn-onheader">
+        <a href="{{ RouterLayerPathFor 'pages.create' }}" class="btn-floating btn-large waves-effect waves-light red right">
+          <i class="material-icons">add</i>
+        </a>
+      </div>
+    {{/ if }}
+    {{# if userHasPermission 'pages.index' }}
+      {{> tabular table=tabularTable class="table bordered index-table" id="scorpius_pages_index" }}
+    {{/ if }}
+  {{/ Layout }}
+</template>

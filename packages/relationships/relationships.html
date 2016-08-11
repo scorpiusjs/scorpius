@@ -1,0 +1,19 @@
+<template name="scorpiusAttributesHasMany">
+  <div class="{{# unless Template.subscriptionsReady }}not-ready{{/ unless }}">
+    <select multiple="true" class="scorpiusAttributesHasMany" {{ atts }}></select>
+  </div>
+</template>
+
+<template name="scorpiusAttributesHasManyColumn">
+  {{ val }}
+</template>
+
+<template name="scorpiusAttributesHasOne">
+  <div class="{{# unless Template.subscriptionsReady }}not-ready{{/ unless }}">
+    <select class="scorpiusAttributesHasOne" {{ atts }}></select>
+  </div>
+</template>
+
+<template name="scorpiusAttributesHasOneColumn">
+  {{ val }}
+</template>

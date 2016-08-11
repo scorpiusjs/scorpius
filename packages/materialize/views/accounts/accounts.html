@@ -1,0 +1,19 @@
+<template name="scorpiusMaterializeAccountsIndex">
+  {{# Layout template=materializeHeader }}
+    {{ i18n 'accounts.index.title' }}
+  {{/ Layout }}
+  {{# Layout template=materializeContent }}
+    {{# if userHasPermission 'accounts.showCreate' }}
+      <div class="floating-btn-onheader">
+        <a href="{{ RouterLayerPathFor 'accounts.create' }}" class="btn-floating btn-large waves-effect waves-light red right">
+          <i class="material-icons">add</i>
+        </a>
+      </div>
+    {{/ if }}
+    <div class="row admin-index-table">
+      <div class="col s12">
+        {{> tabular table=table class="table bordered index-table" id="scorpius_accounts_index" }}
+      </div>
+    </div>
+  {{/ Layout }}
+</template>

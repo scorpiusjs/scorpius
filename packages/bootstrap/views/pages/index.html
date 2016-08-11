@@ -1,0 +1,11 @@
+<template name="scorpiusBootstrapPagesIndex">
+  {{# Layout template="scorpiusBootstrapMediumContentOffset" }}
+    {{# Layout template="scorpiusBootstrapTitle" }}
+      {{ i18n 'pages.index.title' }}
+      <a href="{{ RouterLayerPathFor 'pages.create' }}" class="btn btn-default btn-xs"><i class="fa fa-plus"></i></a>
+    {{/ Layout }}
+    {{# Layout template="scorpiusBootstrapContentContainer" }}
+      {{> tabular table=tabularTable class="table index-table" id="scorpius_pages_index" }}
+    {{/ Layout }}
+  {{/ Layout }}
+</template>

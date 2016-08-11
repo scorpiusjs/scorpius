@@ -1,0 +1,24 @@
+<template name="scorpiusBootstrapConfigUpdate">
+  {{# Layout template="scorpiusBootstrapSmallContentOffset" }}
+    {{# Layout template="scorpiusBootstrapTitle" }}
+      {{ i18n 'config.update.title' }}
+    {{/ Layout }}
+    {{# Layout template="scorpiusBootstrapContentContainer" }}
+      <p>
+        {{> reactiveTemplate template="tabs" data=getDataForTabs }}
+      </p>
+      <hr>
+      {{# autoForm collection="scorpius.config.collection" id="updateConfigForm" type="update" doc=getDoc }}
+        {{# if getFields }}
+          {{# each afFieldNames fields=getFields }}
+            {{> afQuickField name=this.name options=afOptionsFromSchema }}
+          {{/ each}}
+        {{/ if }}
+        <br>
+        <div class="text-right">
+          <button class="btn btn-primary">{{ i18n 'global.save' }}</button>
+        </div>
+      {{/ autoForm }}
+    {{/ Layout }}
+  {{/ Layout }}
+</template>

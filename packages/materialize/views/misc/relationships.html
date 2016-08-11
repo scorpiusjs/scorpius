@@ -1,0 +1,11 @@
+<template name="scorpiusMaterializeHasOneAttribute">
+  <div class="{{# unless Template.subscriptionsReady }}not-ready{{/ unless }} scorpiusMaterializeHasOneAttribute">
+    <select class="scorpiusAttributesHasOne" {{ atts }}></select>
+  </div>
+</template>
+
+<template name="scorpiusMaterializeHasManyAttribute">
+  <div class="{{# unless Template.subscriptionsReady }}not-ready{{/ unless }} scorpiusMaterializeHasManyAttribute">
+    <select multiple="true" class="scorpiusAttributesHasMany" {{ atts }}></select>
+  </div>
+</template>
