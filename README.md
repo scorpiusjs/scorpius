@@ -1,5 +1,7 @@
 # Scorpius
 
+[![Join the chat at https://gitter.im/scorpiusjs/scorpius](https://badges.gitter.im/scorpiusjs/scorpius.svg)](https://gitter.im/scorpiusjs/scorpius?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 ![Scorpius][1]
 
