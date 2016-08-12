@@ -1,31 +1,13 @@
-# MaterialNote for Scorpiusjs
+# Scorpius Materialnote
 
-This package is a bundling of the Materialnote from https://github.com/Cerealkillerway/materialNote
+![Scorpius][1]
+
+## Overview
+Core Materialnote package for the Scorpius framework.
+
+## Documentation
+> Coming Soon
+
+[1]: https://raw.githubusercontent.com/scorpiusjs/graphics/master/logos/scorpiusjs-logo.png
 
 
-It works just like summernote as an attribute.
-
-```
-Posts.attachSchema(new SimpleSchema({
-        title: {
-            type: String
-        },
-    
-        content: scorpius.attribute("materialnote",{
-            label: "Blog Post"
-        }),
-    
-        author: scorpius.attribute("createdBy"),
-        createdAt: scorpius.attribute("createdAt"),
-        updatedAt: scorpius.attribute("updatedAt"),
-        image: scorpius.attribute("image", {
-            label: "Top Image(Optional)",
-            optional: true
-        }),
-    }));
-    
-```
-
-BUGS
-
-Seems taht some of the summernote features like font changing

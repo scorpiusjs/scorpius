@@ -1,8 +1,13 @@
 # Scorpius Core
 
-Scorpius is an open source framework built on Meteor that makes complex as well as simple apps possible with minimal effort.
+![Scorpius][1]
 
-This is an official subpackage for the super awesome Scorpius CMS framework. This is not a standalone app you must use as part of the framework.
-[Scorpiusjs.org](http://scorpiusjs.org) has all the guides and hand holding you need to build simple and complex apps on meteor.
+## Overview
+Core package for the Scorpius framework.
 
-Scorpius is the first and perhaps the only structurally organized framework for meteor that takes care of security, scaling, support and performance. It is a plug and play solution backed by a core team of seasoned developers. Code examples, tutorials and documentation makes Scorpiusjs the definite framework to use for your next project.
+## Documentation
+> Coming Soon
+
+[1]: https://raw.githubusercontent.com/scorpiusjs/graphics/master/logos/scorpiusjs-logo.png
+
+

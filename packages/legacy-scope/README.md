@@ -1,9 +1,9 @@
-# Scorpius Froala
+# Scorpius Legacy Scope
 
 ![Scorpius][1]
 
 ## Overview
-Core Froala package for the Scorpius framework.
+Core Legacy Scope package for the Scorpius framework.
 
 ## Documentation
 > Coming Soon

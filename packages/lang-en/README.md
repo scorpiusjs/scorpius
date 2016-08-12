@@ -1,2 +1,13 @@
-# ScorpiusJS - Default english language
-Provide a complete language set for the default language: English.
+# Scorpius Language - English
+
+![Scorpius][1]
+
+## Overview
+Core Language - English package for the Scorpius framework.
+
+## Documentation
+> Coming Soon
+
+[1]: https://raw.githubusercontent.com/scorpiusjs/graphics/master/logos/scorpiusjs-logo.png
+
+

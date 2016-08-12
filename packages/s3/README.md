@@ -1,7 +1,13 @@
-# S3
-This package use [lepozepo:s3](https://atmospherejs.com/lepozepo/s3). Follow their [guide](https://github.com/Lepozepo/S3/#create-your-amazon-s3) to setup your S3 bucket.
+# Scorpius S3
 
-This is an official subpackage for the super awesome Scorpius CMS framework. This is not a standalone app you must use as part of the framework. 
-[Website](http://Scorpiusjs.org) has all the guides and hand holding you need to build simple and complex apps on meteor. 
+![Scorpius][1]
 
-Scorpius is the first and perhaps the only structurally organized framework for meteor that takes care of security, scaling, support and performance. It is a plug and play solution backed by a core team of seasoned developers. Code examples, tutorial and documentation makes Scorpiusjs the definate framework to use for your next project.
+## Overview
+Core S3 package for the Scorpius framework.
+
+## Documentation
+> Coming Soon
+
+[1]: https://raw.githubusercontent.com/scorpiusjs/graphics/master/logos/scorpiusjs-logo.png
+
+
