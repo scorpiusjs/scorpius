@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:core',
   summary: 'A framework that makes complex as well as simple apps possible with minimal effort',
-  version: '0.1.0',
+  version: "0.1.0",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
@@ -35,5 +35,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('scorpiusjs:core');
+  // api.use('scorpiusjs:core');
 });
