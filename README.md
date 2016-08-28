@@ -4,7 +4,7 @@
 
 
 ![Scorpius][1]
-
+ 
 [![Version](https://img.shields.io/badge/Version-0.2.0-blue.svg?style=flat-square)]() [![Trello](https://img.shields.io/badge/Favro-Roadmap-yellow.svg?style=flat-square)](https://favro.com/organization/33e97eaca264ea0a2fd4dc99/01d1aa78db9d627ac3b21ef8)
 [![Join the chat at https://gitter.im/scorpiusjs/scorpius](https://badges.gitter.im/scorpiusjs/scorpius.svg)](https://gitter.im/scorpiusjs/scorpius?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
