@@ -45,35 +45,35 @@ ReactiveTemplates.set('pages.update', 'scorpiusMaterializePagesUpdate');
 ReactiveTemplates.set('pages.delete', 'scorpiusMaterializePagesDelete');
 
 if (Meteor.isClient) {
-  AutoForm.setDefaultTemplate('materialize');
+	AutoForm.setDefaultTemplate('materialize');
 
-  Meteor.startup(function() {
-    Session.set('scorpius_autoformLoading', false);
-  });
+	Meteor.startup(function() {
+	Session.set('scorpius_autoformLoading', false);
+	});
 
-  AutoForm.addHooks(null, {
-    beginSubmit: function() {
-      Session.set('scorpius_autoformLoading', true);
-    },
+	AutoForm.addHooks(null, {
+	beginSubmit: function() {
+	  Session.set('scorpius_autoformLoading', true);
+	},
 
-    endSubmit: function() {
-      Session.set('scorpius_autoformLoading', false);
-    },
-  });
+	endSubmit: function() {
+	  Session.set('scorpius_autoformLoading', false);
+	},
+	});
 
-  Template.registerHelper('scorpius_autoformLoading', function() {
-    return Session.get('scorpius_autoformLoading') ? 'disabled' : '';
-  });
+	Template.registerHelper('scorpius_autoformLoading', function() {
+	return Session.get('scorpius_autoformLoading') ? 'disabled' : '';
+	});
 
-  Template.registerHelper('materializeHeader', function() {
-    return ReactiveTemplates.get('materializeHeader');
-  });
+	Template.registerHelper('materializeHeader', function() {
+	return ReactiveTemplates.get('materializeHeader');
+	});
 
-  Template.registerHelper('materializeContent', function() {
-    return ReactiveTemplates.get('materializeContent');
-  });
+	Template.registerHelper('materializeContent', function() {
+	return ReactiveTemplates.get('materializeContent');
+	});
 
-  Template.registerHelper('materializeButtons', function() {
-    return ReactiveTemplates.get('materializeButtons');
-  });
+	Template.registerHelper('materializeButtons', function() {
+	return ReactiveTemplates.get('materializeButtons');
+	});
 }
