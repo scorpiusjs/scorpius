@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:froala',
   summary: 'Froala editor for scorpius',
-  version: '0.1.0',
+  version: "0.2.0",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
