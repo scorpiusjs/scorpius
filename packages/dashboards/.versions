@@ -79,7 +79,7 @@ scorpiusjs:base@0.1.0
 scorpiusjs:collections@0.1.0
 scorpiusjs:config@0.1.0
 scorpiusjs:core@0.1.0
-scorpiusjs:dashboards@0.1.0
+scorpiusjs:dashboards@0.3.0
 scorpiusjs:dictionary@0.1.0
 scorpiusjs:lang-en@0.1.0
 service-configuration@1.0.10

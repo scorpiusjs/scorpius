@@ -22,11 +22,11 @@ meteor@1.1.10
 minifiers@1.1.7
 mongo-id@1.0.1
 observe-sequence@1.0.7
-scorpiusjs:lang-en@0.1.0
-scorpiusjs:lang-es@0.1.0
 promise@0.5.1
 random@1.0.5
 reactive-var@1.0.6
+scorpiusjs:lang-en@0.1.0
+scorpiusjs:lang-es@0.2.0
 softwarerero:accounts-t9n@1.1.7
 spacebars@1.0.7
 spacebars-compiler@1.0.7

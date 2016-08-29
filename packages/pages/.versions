@@ -70,7 +70,7 @@ retry@1.0.7
 routepolicy@1.0.11
 scorpiusjs:base@0.1.0
 scorpiusjs:lang-en@0.1.0
-scorpiusjs:pages@0.1.0
+scorpiusjs:pages@0.3.0
 service-configuration@1.0.5
 session@1.1.5
 softwarerero:accounts-t9n@1.1.7

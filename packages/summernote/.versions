@@ -72,7 +72,7 @@ scorpiusjs:attributes@0.1.0
 scorpiusjs:base@0.1.0
 scorpiusjs:filesystem@0.1.0
 scorpiusjs:lang-en@0.1.0
-scorpiusjs:summernote@0.1.0
+scorpiusjs:summernote@0.2.0
 service-configuration@1.0.5
 session@1.1.1
 softwarerero:accounts-t9n@1.1.7

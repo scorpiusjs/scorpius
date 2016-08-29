@@ -42,7 +42,7 @@ jquery@1.11.9
 launch-screen@1.0.4
 lepozepo:s3@5.1.6
 livedata@1.0.15
-local-test:scorpiusjs:s3@0.1.0
+local-test:scorpiusjs:s3@0.2.0
 localstorage@1.0.11
 logging@1.1.14
 matb33:collection-hooks@0.7.15
@@ -83,7 +83,7 @@ scorpiusjs:core@0.1.0
 scorpiusjs:dictionary@0.1.0
 scorpiusjs:filesystem@0.1.0
 scorpiusjs:lang-en@0.1.0
-scorpiusjs:s3@0.1.0
+scorpiusjs:s3@0.2.0
 service-configuration@1.0.10
 session@1.1.1
 sha@1.0.8
