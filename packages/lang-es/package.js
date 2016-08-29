@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.0.1');
+  api.versionsFrom('1.4.1');
 
   api.use('ecmascript@0.1.6');
   api.use('scorpiusjs:lang-en@0.1.0');
