@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'scorpiusjs:dashboards',
-	version: "0.2.0",
+	version: "0.3.0",
 	// Brief, one-line summary of the package.
 	summary: 'Adds a Dashboard and Widgets to scorpius.',
 	// URL to the Git repository containing the source code for this package.

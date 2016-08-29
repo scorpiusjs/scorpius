@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:image-attribute',
   summary: 'Image attribute for scorpius',
-  version: '0.1.0',
+  version: "0.2.0",
   git: 'http://github.com/scorpiusjs/scorpius'
 });
 
