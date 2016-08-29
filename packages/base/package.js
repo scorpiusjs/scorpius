@@ -1,12 +1,12 @@
 Package.describe({
   name: 'scorpiusjs:base',
   summary: 'Scorpius',
-  version: '0.1.0',
+  version: "0.2.0",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.0.1');
+  api.versionsFrom('1.4.1');
 
   api.use([
     'ecmascript@0.1.6',

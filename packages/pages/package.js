@@ -1,12 +1,12 @@
 Package.describe({
 	name: 'scorpiusjs:pages',
 	summary: 'Pages for Scorpius CMS',
-	version: '0.1.0',
+	version: "0.3.0",
 	git: 'https://github.com/scorpiusjs/pages'
 });
 
 Package.onUse(function(api) {
-	api.versionsFrom('1.4.0.1');
+	api.versionsFrom('1.4.1');
 
 	api.use([
 		'blaze-html-templates@1.0.1',

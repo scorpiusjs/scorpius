@@ -1,0 +1,134 @@
+<template name="scorpiusComponents">
+	{{#each components}}
+		{{> scorpiusComponent}}
+	{{/each}}
+</template>
+
+<template name="scorpiusComponent">
+	{{> Template.dynamic template=definition.templateFrontend data=data}}
+</template>
+
+
+<!--- Bootstrap --->
+<template name="afArrayField_bootstrap_components_oneItem_preview">
+	<div class="afArrayField_bootstrap_components_oneItem_preview">
+		{{> scorpiusComponent data=componentData definitionId=definitionId}}
+	</div>
+</template>
+
+<template name="afArrayField_bootstrap_components_oneItem">
+	<li class="list-group-item afArrayField_bootstrap_components_oneItem">
+		<div class="actions">
+			<div class="wrapper-definitionId {{#unless isEditing}}hidden{{/unless}}">
+				{{> afQuickField name=fieldNameDefinitionId }}
+			</div>
+
+			{{#if isEditing}}
+				<button class="btn btn-default btn-finish-edit"><i class="fa fa-eye"></i> Preview</button>
+				
+				{{#if afArrayFieldHasMoreThanMinimum name=../atts.name minCount=../atts.minCount maxCount=../atts.maxCount}}
+					<button type="button" class="btn btn-primary autoform-remove-item"><span class="glyphicon glyphicon-minus"></span> Remove</button>
+				{{/if}}
+				
+				{{else}}
+					<button class="btn btn-default btn-edit"><i class="fa fa-pencil"></i> Edit</button>
+			{{/if}}
+		</div>
+		
+		<div class="{{#unless isEditing}}hidden{{/unless}}">
+			{{#if selectedDefinitionId}}
+				{{> afQuickField name=fieldNameData}}
+			{{/if}}
+		</div>
+		
+		{{#unless isEditing}}
+			{{> afArrayField_bootstrap_components_oneItem_preview definitionId=selectedDefinitionId componentData=subDoc}}
+		{{/unless}}
+	</li>
+</template>
+
+<template name="afArrayField_bootstrap_components">
+	<div class="afArrayField_bootstrap_components">
+		{{#if afFieldIsInvalid name=this.atts.name}}
+			<div class="panel-body has-error">
+				<span class="help-block">{{{afFieldMessage name=this.atts.name}}}</span>
+			</div>
+		{{/if}}
+
+		<ul class="list-group">
+			{{#afEachArrayItem name=this.atts.name minCount=this.atts.minCount maxCount=this.atts.maxCount}}
+				{{>afArrayField_bootstrap_components_oneItem}}
+			{{/afEachArrayItem}}
+			
+			{{#if afArrayFieldHasLessThanMaximum name=this.atts.name minCount=this.atts.minCount maxCount=this.atts.maxCount}}
+				<li class="list-group-item">
+					<button type="button" class="btn btn-primary autoform-add-item" data-autoform-field="{{this.atts.name}}" data-autoform-minCount="{{this.atts.minCount}}" data-autoform-maxCount="{{this.atts.maxCount}}"><span class="glyphicon glyphicon-plus"></span></button>
+				</li>
+			{{/if}}
+		</ul>
+	</div>
+</template>
+
+
+<!--- Materialize --->
+<template name="afArrayField_materialize_components_oneItem_preview">
+	<div class="afArrayField_materialize_components_oneItem_preview">
+		{{> scorpiusComponent data=componentData definitionId=definitionId}}
+	</div>
+</template>
+
+<template name="afArrayField_materialize_components_oneItem">
+	<li class="collection-item afArrayField_materialize_components_oneItem">
+		<div class="actions">
+			<div class="wrapper-definitionId {{#unless isEditing}}hidden{{/unless}}">
+				{{> afQuickField name=fieldNameDefinitionId }}
+			</div>
+
+			{{#if isEditing}}
+				<a class="btn btn-default btn-finish-edit"><i class="material-icons">remove_red_eye</i> Preview</a>
+				
+				{{#if afArrayFieldHasMoreThanMinimum name=../atts.name minCount=../atts.minCount maxCount=../atts.maxCount}}
+					<a class="btn btn-primary autoform-remove-item"><i class="material-icons">remove</i> Remove</a>
+				{{/if}}
+				
+				{{else}}
+					<i class="btn btn-default btn-edit"><i class="material-icons">mode_edit</i> Edit</i>
+			{{/if}}
+		</div>
+		
+		<div class="{{#unless isEditing}}hidden{{/unless}}">
+			{{#if selectedDefinitionId}}
+				{{> afQuickField name=fieldNameData}}
+			{{/if}}
+		</div>
+		
+		{{#unless isEditing}}
+			{{> afArrayField_materialize_components_oneItem_preview definitionId=selectedDefinitionId componentData=subDoc}}
+		{{/unless}}
+	</li>
+</template>
+
+
+<template name="afArrayField_materialize_components">
+	<div class="afArrayField_materialize_components">
+		{{#if afFieldIsInvalid name=this.atts.name}}
+			<div class="card red darken-1 has-error">
+				<span class="help-block">{{{afFieldMessage name=this.atts.name}}}</span>
+			</div>
+		{{/if}}
+
+		<ul class="collection">
+			{{#afEachArrayItem name=this.atts.name minCount=this.atts.minCount maxCount=this.atts.maxCount}}
+				{{>afArrayField_materialize_components_oneItem}}
+			{{/afEachArrayItem}}
+			
+			{{#if afArrayFieldHasLessThanMaximum name=this.atts.name minCount=this.atts.minCount maxCount=this.atts.maxCount}}
+				<li class="collection-item">
+					<a class="btn btn-primary autoform-add-item" data-autoform-field="{{this.atts.name}}" data-autoform-minCount="{{this.atts.minCount}}" data-autoform-maxCount="{{this.atts.maxCount}}">
+						<i class="material-icons">add</i>
+					</a>
+				</li>
+			{{/if}}
+		</ul>
+	</div>
+</template>

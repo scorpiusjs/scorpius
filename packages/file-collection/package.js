@@ -1,25 +1,24 @@
 Package.describe({
-  name: 'scorpiusjs:s3',
-  summary: 'S3 storage for scorpius:filesystem',
+  name: 'scorpiusjs:file-collection',
+  summary: 'MongoDB gridFS support for scorpiusjs:filesystem',
   version: "0.2.0",
-  git: 'https://github.com/scorpiusjs/s3'
+  git: 'https://github.com/scorpiusjs/packages/tree/master/file-collection'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.4.1');
 
   api.use([
-    'ecmascript@0.1.6',
     'scorpiusjs:core@0.1.0',
     'scorpiusjs:filesystem@0.1.0',
-    'scorpiusjs:config@0.1.0',
-    'lepozepo:s3@5.1.1'
+    'vsivsi:file-collection@1.3.0'
     ]);
 
   api.addFiles([
-    's3.js',
+    'index.js'
     ]);
 
+    api.export('scorpiusFileCollection');
 });
 
 Package.onTest(function(api) {

@@ -1,13 +1,13 @@
 Package.describe({
   name: 'scorpiusjs:legacy-scope',
-  version: '0.1.0',
+  version: "0.2.0",
   summary: 'Handles Legacy Scoping for Scorpius Projects migrating to Scorpius',
   git: '',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.0.1');
+  api.versionsFrom('1.4.1');
   api.use('ecmascript');
   api.use('scorpiusjs:core@0.1.0');
   api.mainModule('main.js');
