@@ -30,7 +30,7 @@ scorpius.components = {
 				label: "Component",
 				autoform: {
 					class: "input-lg select-definitionId",
-					template: "bootstrap",
+					template: "${Options.get('components.framework')}",
 					options(){
 						return scorpius.components.definitionsOptions({allowedComponents});
 					}
