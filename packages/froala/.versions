@@ -73,7 +73,7 @@ routepolicy@1.0.11
 scorpiusjs:attributes@0.1.0
 scorpiusjs:base@0.1.0
 scorpiusjs:filesystem@0.1.0
-scorpiusjs:froala@0.1.0
+scorpiusjs:froala@0.2.0
 scorpiusjs:lang-en@0.1.0
 service-configuration@1.0.5
 session@1.1.1

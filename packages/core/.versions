@@ -41,7 +41,7 @@ id-map@1.0.8
 jquery@1.11.9
 launch-screen@1.0.4
 livedata@1.0.15
-local-test:scorpiusjs:core@0.1.0
+local-test:scorpiusjs:core@0.2.0
 localstorage@1.0.11
 logging@1.1.14
 matb33:collection-hooks@0.7.15
@@ -78,7 +78,7 @@ scorpiusjs:attributes@0.1.0
 scorpiusjs:base@0.1.0
 scorpiusjs:collections@0.1.0
 scorpiusjs:config@0.1.0
-scorpiusjs:core@0.1.0
+scorpiusjs:core@0.2.0
 scorpiusjs:dictionary@0.1.0
 scorpiusjs:lang-en@0.1.0
 service-configuration@1.0.10

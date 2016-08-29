@@ -38,7 +38,7 @@ id-map@1.0.8
 jquery@1.11.9
 launch-screen@1.0.4
 livedata@1.0.15
-local-test:scorpiusjs:dictionary@0.1.0
+local-test:scorpiusjs:dictionary@0.2.0
 localstorage@1.0.5
 logging@1.1.14
 meteor@1.2.16
@@ -67,7 +67,7 @@ reload@1.1.8
 retry@1.0.7
 routepolicy@1.0.11
 scorpiusjs:base@0.1.0
-scorpiusjs:dictionary@0.1.0
+scorpiusjs:dictionary@0.2.0
 scorpiusjs:lang-en@0.1.0
 service-configuration@1.0.5
 session@1.1.1
