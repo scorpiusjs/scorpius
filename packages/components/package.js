@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'scorpiusjs:components',
-	version: '0.1.0',
+	version: "0.2.0",
 	summary: 'Add components to Scorpius',
 	git: 'https://github.com/scorpiusjs/scorpius/tree/master/packages/components',
 	documentation: 'README.md'
