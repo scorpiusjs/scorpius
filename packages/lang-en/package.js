@@ -1,6 +1,6 @@
 Package.describe({
   name: 'scorpiusjs:lang-en',
-  version: '0.1.0',
+  version: "0.2.0",
   summary: 'Scorpius - Default english language',
   git: 'https://github.com/scorpiusjs/scorpius',
   documentation: 'README.md'
