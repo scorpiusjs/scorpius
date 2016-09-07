@@ -83,28 +83,24 @@
 			<div class="wrapper-definitionId {{#unless isEditing}}hidden{{/unless}}">
 				{{> afQuickField name=fieldNameDefinitionId }}
 			</div>
-
-			{{#if isEditing}}
-				<a class="btn btn-default btn-finish-edit"><i class="material-icons">remove_red_eye</i> Preview</a>
-				
-				{{#if afArrayFieldHasMoreThanMinimum name=../atts.name minCount=../atts.minCount maxCount=../atts.maxCount}}
-					<a class="btn btn-primary autoform-remove-item"><i class="material-icons">remove</i> Remove</a>
+			
+			{{#ModalComponent classes="btn btn-default btn-finish-edit" title="Preview" id=(uuid)}}
+				{{#with selectedDefinitionId}}
+					{{> afArrayField_materialize_components_oneItem_preview definitionId=selectedDefinitionId componentData=subDoc}}
+				{{/with}}
+			{{/ModalComponent}}
+			
+			{{#ModalComponent classes="btn btn-default btn-edit" title="Edit" id=(uuid)}}
+				{{#if selectedDefinitionId}}
+					{{> afQuickField name=fieldNameData}}
 				{{/if}}
-				
-				{{else}}
-					<i class="btn btn-default btn-edit"><i class="material-icons">mode_edit</i> Edit</i>
+			{{/ModalComponent}}
+			
+			{{#if afArrayFieldHasMoreThanMinimum name=../atts.name minCount=../atts.minCount maxCount=../atts.maxCount}}
+				<a class="btn btn-primary autoform-remove-item">Remove</a>
 			{{/if}}
+
 		</div>
-		
-		<div class="{{#unless isEditing}}hidden{{/unless}}">
-			{{#if selectedDefinitionId}}
-				{{> afQuickField name=fieldNameData}}
-			{{/if}}
-		</div>
-		
-		{{#unless isEditing}}
-			{{> afArrayField_materialize_components_oneItem_preview definitionId=selectedDefinitionId componentData=subDoc}}
-		{{/unless}}
 	</li>
 </template>
 

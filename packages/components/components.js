@@ -1,3 +1,5 @@
+import { ModalComponent } from './imports/utils/ModalComponent.js';
+
 scorpius.components = {
 	registerComponent(id, definition) {
 		definition.id = id;
