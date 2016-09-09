@@ -1,0 +1,14 @@
+<template name="ModalComponent">
+	<!-- Modal Trigger -->
+	<a class="modal-trigger {{classes}}" href="#modal_{{id}}">{{#if icon}}<i class="material-icons">{{icon}}</i>{{/if}} {{{title}}}</a>
+	
+	<!-- Modal Structure -->
+	<div id="modal_{{id}}" class="scorpius-ui modal component {{#if bottom}}bottom-sheet{{/if}}" style="z-index:100000">
+		<div class="modal-content ">
+			{{> Template.contentBlock}}
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class="modal-action modal-close waves-effect waves-black btn-flat btn-finish-edit">Dismiss</a>
+		</div>
+	</div>
+</template>
