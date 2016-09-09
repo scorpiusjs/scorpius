@@ -85,9 +85,7 @@
 			</div>
 			
 			{{#ModalComponent classes="btn btn-default btn-finish-edit" title="Preview" id=(uuid)}}
-				{{#with selectedDefinitionId}}
-					{{> afArrayField_materialize_components_oneItem_preview definitionId=selectedDefinitionId componentData=subDoc}}
-				{{/with}}
+				{{> afArrayField_materialize_components_oneItem_preview definitionId=selectedDefinitionId componentData=subDoc}}
 			{{/ModalComponent}}
 			
 			{{#ModalComponent classes="btn btn-default btn-edit" title="Edit" id=(uuid)}}

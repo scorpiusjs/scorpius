@@ -71,6 +71,9 @@ scorpius.components = {
 	}
 }
 
+// TODO : Settings scorpius.component to scorpius.components.components to get around 
+// the long unfriendly scoping.
+scorpius.component = scorpius.components.components;
 
 ScorpiusComponentCollection = new Meteor.Collection("scorpius.components");
 if(Meteor.isClient) {
