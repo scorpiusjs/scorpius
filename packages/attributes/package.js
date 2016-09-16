@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:attributes',
   summary: 'Scorpius attributes',
-  version: "0.2.0",
+  version: "0.3.0",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 

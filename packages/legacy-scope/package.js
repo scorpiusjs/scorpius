@@ -1,6 +1,6 @@
 Package.describe({
   name: 'scorpiusjs:legacy-scope',
-  version: "0.2.0",
+  version: "0.3.0",
   summary: 'Handles Legacy Scoping for Scorpius Projects migrating to Scorpius',
   git: '',
   documentation: 'README.md'

@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:file-collection',
   summary: 'MongoDB gridFS support for scorpiusjs:filesystem',
-  version: "0.2.0",
+  version: "0.3.0",
   git: 'https://github.com/scorpiusjs/packages/tree/master/file-collection'
 });
 

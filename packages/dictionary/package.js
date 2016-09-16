@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:dictionary',
   summary: 'Meteor collection with some magic',
-  version: "0.2.0",
+  version: "0.3.0",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
