@@ -12,6 +12,9 @@ Scorpius is a Meteorbased Admin System built for small and large scale applicati
 
 Speed optimization and accuracy is at the core structure of Scorpius.
 
+Scorpius is originally a fork of the awesome [Orionjs](https://github.com/orionjs/orion)
+project.  As Scorpius evolves it aims to stay inline with the latest features of Meteor.
+
 #### Contributing
 If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/scorpius/issues) section of this project. 
 
