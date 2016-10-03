@@ -18,6 +18,10 @@ project.  As Scorpius evolves it aims to stay inline with the latest features of
 #### Contributing
 If you would like to contribute to `Scorpius` by requesting features, submitting issues, or building community extensions visit the [issues](https://github.com/scorpiusjs/scorpius/issues) section of this project. 
 
+#### Support Scorpius
+If you would like to be a supporter of the scorpius project, please click on the donations button below. A special thanks will be sent to each supporter.
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HVJYMSKKU6PKN)
+
 #### Discussion
 Join the community channel by following this link.
 
