@@ -41,7 +41,7 @@ id-map@1.0.8
 jquery@1.11.9
 launch-screen@1.0.4
 livedata@1.0.15
-local-test:scorpiusjs:accounts@0.2.0
+local-test:scorpiusjs:accounts@0.3.0_2
 localstorage@1.0.11
 logging@1.1.14
 matb33:collection-hooks@0.7.15
@@ -73,7 +73,7 @@ reactive-var@1.0.10
 reload@1.1.8
 retry@1.0.7
 routepolicy@1.0.11
-scorpiusjs:accounts@0.2.0
+scorpiusjs:accounts@0.3.0_2
 scorpiusjs:attributes@0.1.0
 scorpiusjs:base@0.1.0
 scorpiusjs:lang-en@0.1.0

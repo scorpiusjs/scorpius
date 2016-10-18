@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:accounts',
   summary: 'Scorpius accounts mannager',
-  version: "0.3.0",
+  version: "0.3.0_2",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 

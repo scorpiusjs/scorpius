@@ -2,7 +2,8 @@
  * Sets the default permissions to new users
  */
 Meteor.users.after.insert(function (userId, doc) {
-  var curUserId = doc._id.ops[0]._id;
+//   var curUserId = doc._id.ops[0]._id;
+	var curUserId = doc._id;
 
   if (scorpius.adminExists) {
 	
