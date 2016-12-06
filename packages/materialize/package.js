@@ -1,23 +1,23 @@
 Package.describe({
   name: 'scorpiusjs:materialize',
   summary: 'Materialize theme for scorpius admin',
-  version: "0.3.0",
+  version: "0.3.1",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.1');
+  api.versionsFrom('1.4.2.3');
 
   api.use([
-    'blaze-html-templates@1.0.1',
-    'ecmascript@0.1.6',
+    'blaze-html-templates',
+    'ecmascript',
     'meteor-platform',
-    'scorpiusjs:core@0.1.0',
-    'less@2.5.0_1',
-    'aldeed:autoform@5.7.1',
-    'nicolaslopezj:tabular-materialize@1.2.1',
-    'useraccounts:materialize@1.11.1',
-    'gildaspk:autoform-materialize@0.0.25',
+    'less',
+    'aldeed:autoform@5.8.1',
+    'nicolaslopezj:tabular-materialize@1.4.1_4',
+    'useraccounts:materialize@1.14.2',
+    'gildaspk:autoform-materialize@0.0.26',
+    'scorpiusjs:core@0.3.1'
     ]);
 
   api.imply([

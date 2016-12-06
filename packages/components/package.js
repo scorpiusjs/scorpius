@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('1.4.1');
+	api.versionsFrom('1.4.2.3');
 	
 	api.use([
 		'ecmascript', 'less', 'scorpiusjs:core@0.1.0', 'reactive-var'
@@ -19,7 +19,7 @@ Package.onUse(function (api) {
 	], {weak: true});
 	
 	api.use([
-		'peerlibrary:blaze-components@0.19.0', 'peerlibrary:reactive-field@0.1.0'
+		'peerlibrary:blaze-components@0.20.0', 'peerlibrary:reactive-field@0.3.0'
 	]);
 	
 	api.addFiles([

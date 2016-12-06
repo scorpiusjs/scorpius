@@ -1,22 +1,22 @@
 Package.describe({
   name: 'scorpiusjs:bootstrap',
   summary: 'A simple theme for scorpius',
-  version: "0.3.0",
+  version: "0.3.1",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.1');
+  api.versionsFrom('1.4.2.3');
 
   api.use([
-    'blaze-html-templates@1.0.1',
-    'ecmascript@0.1.6',
+    'blaze-html-templates',
+    'ecmascript',
     'meteor-platform',
-    'scorpiusjs:core@0.1.0',
-    'less@2.5.0_1',
-    'aldeed:autoform@5.7.1',
-    'aldeed:tabular@1.1.0',
-    'useraccounts:bootstrap@1.11.1'
+    'scorpiusjs:core@0.3.1',
+    'less',
+    'aldeed:autoform@5.8.1',
+    'aldeed:tabular@2.1.1',
+    'useraccounts:bootstrap@1.14.2'
     ]);
 
   api.imply([

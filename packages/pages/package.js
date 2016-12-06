@@ -1,23 +1,23 @@
 Package.describe({
 	name: 'scorpiusjs:pages',
 	summary: 'Pages for Scorpius CMS',
-	version: "0.3.0",
+	version: "0.3.1",
 	git: 'https://github.com/scorpiusjs/pages'
 });
 
 Package.onUse(function(api) {
-	api.versionsFrom('1.4.1');
+	api.versionsFrom('1.4.2.3');
 
 	api.use([
-		'blaze-html-templates@1.0.1',
-		'ecmascript@0.1.6',
+		'blaze-html-templates',
+		'ecmascript',
 		'meteor-platform',
-		'scorpiusjs:base@0.1.0',
-		'aldeed:collection2@2.3.3',
-		'aldeed:autoform@5.4.0'
+		'aldeed:collection2@2.10.0',
+		'aldeed:autoform@5.8.1',
+		'scorpiusjs:base@0.3.1'
 		]);
 
-	api.use(['aldeed:tabular@1.2.0', 'nicolaslopezj:tabular-materialize@1.2.1'], {
+	api.use(['aldeed:tabular@2.1.1', 'nicolaslopezj:tabular-materialize@1.4.1_4'], {
 		weak: true
 	});
 

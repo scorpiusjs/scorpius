@@ -1,18 +1,18 @@
 Package.describe({
   name: 'scorpiusjs:filesystem',
   summary: 'Scorpius Filesystem',
-  version: "0.3.0",
+  version: "0.3.1",
   git: 'https://github.com/scorpiusjs/scorpius',
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.1');
+  api.versionsFrom('1.4.2.3');
 
   api.use([
-    'blaze-html-templates@1.0.1',
-    'ecmascript@0.1.6',
-    'scorpiusjs:base@0.1.0',
-    'aldeed:collection2@2.3.3',
+    'blaze-html-templates',
+    'ecmascript',
+    'scorpiusjs:base@0.3.2',
+    'aldeed:collection2@2.10.0',
     ]);
 
   api.imply([

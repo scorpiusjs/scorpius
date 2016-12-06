@@ -1,22 +1,22 @@
 Package.describe({
   name: 'scorpiusjs:config',
   summary: 'Scorpius Filesystem',
-  version: "0.3.0",
+  version: "0.3.1",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.1');
+  api.versionsFrom('1.4.2.3');
 
   api.use([
-    'blaze-html-templates@1.0.1',
-    'ecmascript@0.1.6',
-    'scorpiusjs:lang-en@0.1.0',
-    'scorpiusjs:base@0.1.0',
-    'aldeed:simple-schema@1.3.3',
-    'aldeed:collection2@2.3.3',
-    'matb33:collection-hooks@0.7.13',
-    'meteorhacks:inject-initial@1.0.2',
+    'blaze-html-templates',
+    'ecmascript',
+    'scorpiusjs:lang-en@0.3.1',
+    'scorpiusjs:base@0.3.1',
+    'aldeed:simple-schema@1.5.3',
+    'aldeed:collection2@2.10.0',
+    'matb33:collection-hooks@0.8.4',
+    'meteorhacks:inject-initial@1.0.4',
     ]);
 
   api.addFiles([

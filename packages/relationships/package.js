@@ -1,21 +1,21 @@
 Package.describe({
   name: 'scorpiusjs:relationships',
   summary: 'Define and use relationships between meteor collections, entities and the dictionary',
-  version: "0.3.0",
+  version: "0.3.1",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.1');
+  api.versionsFrom('1.4.2.3');
 
   api.use([
-    'blaze-html-templates@1.0.1',
-    'ecmascript@0.1.6',
-    'scorpiusjs:base@0.1.0',
-    'scorpiusjs:attributes@0.1.0',
-    'less@2.5.0_1',
-    'jeremy:selectize@0.12.1',
-    'reactive-var'
+    'blaze-html-templates',
+    'ecmascript',
+    'less',
+    'reactive-var',
+    'jeremy:selectize@0.12.1_5',
+    'scorpiusjs:base@0.3.1',
+    'scorpiusjs:attributes@0.3.1'
     ]);
 
   api.imply([

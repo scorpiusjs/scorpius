@@ -1,6 +1,6 @@
 Package.describe({
     name: 'scorpiusjs:materialnote',
-    version: "0.3.0",
+    version: "0.3.1",
     // Brief, one-line summary of the package.
     summary: 'MaterialNote for scorpiusjs',
     // URL to the Git repository containing the source code for this package.
@@ -11,16 +11,16 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('1.2.1');
+    api.versionsFrom('1.4.2.3');
     api.use([
-        'blaze-html-templates@1.0.1',
-        'ecmascript@0.1.6',
-        'scorpiusjs:base@0.1.0',
-        'scorpiusjs:attributes@0.1.0',
-        'scorpiusjs:filesystem@0.1.0',
+        'blaze-html-templates',
+        'ecmascript',
+        'jquery',
+        'less',
+        'scorpiusjs:base@0.3.1',
+        'scorpiusjs:attributes@0.3.1',
+        'scorpiusjs:filesystem@0.3.1',
         'vojtechklos:materialnote@1.2.2',
-        'less@2.5.0_2',
-        'jquery'
     ]);
 
     api.imply([

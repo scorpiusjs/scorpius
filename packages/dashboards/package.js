@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'scorpiusjs:dashboards',
-	version: "0.3.0",
+	version: "0.3.1",
 	// Brief, one-line summary of the package.
 	summary: 'Adds a Dashboard and Widgets to scorpius.',
 	// URL to the Git repository containing the source code for this package.
@@ -11,18 +11,18 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-	api.versionsFrom('1.4.1');
+	api.versionsFrom('1.4.2.3');
 	api.use([
 		'ecmascript',
         'meteor-platform',
         'check',
-        'scorpiusjs:core@0.1.0',
-        'nicolaslopezj:roles@2.0.1',
-		'tmeasday:publish-counts@0.7.2'
+        'scorpiusjs:core@0.3.1',
+        'nicolaslopezj:roles@2.6.2',
+		'tmeasday:publish-counts@0.8.0'
     ]);
 	api.imply(['tmeasday:publish-counts','scorpiusjs:core']);
     
-    api.use(['scorpiusjs:bootstrap@0.1.0','scorpiusjs:materialize@0.1.0'],'client',{weak:true});
+    api.use(['scorpiusjs:bootstrap@0.3.1','scorpiusjs:materialize@0.3.1'],'client',{weak:true});
     
 	api.addFiles('src/scorpiusjs-dashboard.js');
     

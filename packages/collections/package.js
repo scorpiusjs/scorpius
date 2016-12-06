@@ -1,21 +1,21 @@
 Package.describe({
   name: 'scorpiusjs:collections',
   summary: 'Meteor collection with some magic',
-  version: "0.3.0",
+  version: "0.3.1",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.1');
+  api.versionsFrom('1.4.2.3');
 
   api.use([
-    'blaze-html-templates@1.0.1',
-    'ecmascript@0.1.6',
-    'scorpiusjs:base@0.1.0',
+    'blaze-html-templates',
+    'ecmascript',
+    'scorpiusjs:base@0.3.1',
     'underscore',
-    'aldeed:simple-schema@1.3.3',
-    'aldeed:collection2@2.5.0',
-    'dburles:collection-helpers@1.0.3',
+    'aldeed:simple-schema@1.5.3',
+    'aldeed:collection2@2.10.0',
+    'dburles:collection-helpers@1.1.0',
     ]);
 
   api.imply([
