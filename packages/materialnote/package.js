@@ -21,6 +21,7 @@ Package.onUse(function (api) {
         'scorpiusjs:attributes@0.3.1',
         'scorpiusjs:filesystem@0.3.1',
         'vojtechklos:materialnote@1.2.2',
+		'fourseven:scss@3.10.0'
     ]);
 
     api.imply([
@@ -38,4 +39,3 @@ Package.onUse(function (api) {
         'materialnote.less',
     ], 'client');
 });
-

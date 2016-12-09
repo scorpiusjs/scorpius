@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'blaze-html-templates@1.0.5',
     'ecmascript',
-    'scorpiusjs:base@0.3.2',
+    'scorpiusjs:base@0.3.1',
     'aldeed:collection2@2.10.0',
     ]);
 
