@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('1.4.2.3');
     api.use([
-        'blaze-html-templates',
+        'blaze-html-templates@1.0.5',
         'ecmascript',
         'jquery',
         'less',
