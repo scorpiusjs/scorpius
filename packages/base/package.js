@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'scorpiusjs:base',
 	summary: 'Scorpius',
-	version: "0.3.1",
+	version: "0.3.1_1",
 	git: 'https://github.com/scorpiusjs/scorpius'
 });
 
@@ -25,7 +25,8 @@ Package.onUse(function(api) {
 		'nicolaslopezj:roles@2.6.2',
 		'nicolaslopezj:router-layer@0.0.11',
 		'aldeed:simple-schema@1.5.3',
-		'aldeed:collection2@2.10.0'
+		'aldeed:collection2@2.10.0',
+		'scorpiusjs:lang-en@0.3.1'
 	]);
 
 	api.imply([
