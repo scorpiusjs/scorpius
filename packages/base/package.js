@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'scorpiusjs:base',
 	summary: 'Scorpius',
-	version: "0.3.1_1",
+	version: "0.3.1_2",
 	git: 'https://github.com/scorpiusjs/scorpius'
 });
 
@@ -13,7 +13,6 @@ Package.onUse(function(api) {
 		'meteor-base',
 		'mongo',
 		'standard-minifiers',
-		'ecmascript',
 		'underscore',
 		'spacebars@1.0.13',
 		'blaze-html-templates@1.0.5',
@@ -37,7 +36,8 @@ Package.onUse(function(api) {
 		'nicolaslopezj:router-layer',
 		'nicolaslopezj:options',
 		'nicolaslopezj:reactive-templates',
-		'nicolaslopezj:roles'
+		'nicolaslopezj:roles',
+		'scorpiusjs:lang-en'
 	]);
 
 	api.addFiles([
