@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:accounts',
-  summary: 'Scorpius accounts mannager',
-  version: "0.3.1",
+  summary: 'Scorpius accounts manager',
+  version: "0.3.1_1",
   git: 'https://github.com/scorpiusjs/scorpius'
 });
 
@@ -19,6 +19,7 @@ Package.onUse(function(api) {
     'aldeed:simple-schema@1.5.3',
     'matb33:collection-hooks@0.8.4',
     'meteorhacks:inject-initial@1.0.4',
+	'anti:i18n@0.4.3'
     ]);
 
   api.use([
