@@ -41,7 +41,7 @@ id-map@1.0.9
 jquery@1.11.9
 launch-screen@1.0.4
 livedata@1.0.18
-local-test:scorpiusjs:base@0.3.1_1
+local-test:scorpiusjs:base@0.3.1_2
 localstorage@1.0.11
 logging@1.1.16
 mdg:validation-error@0.2.0
@@ -72,7 +72,7 @@ reactive-var@1.0.10
 reload@1.1.11
 retry@1.0.7
 routepolicy@1.0.12
-scorpiusjs:base@0.3.1_1
+scorpiusjs:base@0.3.1_2
 scorpiusjs:lang-en@0.3.1
 service-configuration@1.0.10
 session@1.1.7
