@@ -6,7 +6,6 @@ aldeed:collection2-core@1.2.0
 aldeed:schema-deny@1.1.0
 aldeed:schema-index@1.1.1
 aldeed:simple-schema@1.5.3
-aldeed:tabular@2.1.1
 allow-deny@1.0.5
 anti:i18n@0.4.3
 autoupdate@1.2.8
@@ -45,7 +44,7 @@ id-map@1.0.9
 jquery@1.11.9
 launch-screen@1.0.4
 livedata@1.0.18
-local-test:scorpiusjs:accounts@0.3.1_2
+local-test:scorpiusjs:accounts@0.3.1_3
 localstorage@1.0.12
 logging@1.1.16
 matb33:collection-hooks@0.8.4
@@ -67,7 +66,6 @@ nicolaslopezj:options@1.0.1
 nicolaslopezj:reactive-templates@1.2.1
 nicolaslopezj:roles@2.6.2
 nicolaslopezj:router-layer@0.0.11
-nicolaslopezj:tabular-materialize@1.4.1_4
 npm-bcrypt@0.9.2
 npm-mongo@2.2.11_2
 observe-sequence@1.0.12
@@ -81,7 +79,7 @@ reactive-var@1.0.10
 reload@1.1.11
 retry@1.0.7
 routepolicy@1.0.12
-scorpiusjs:accounts@0.3.1_2
+scorpiusjs:accounts@0.3.1_3
 scorpiusjs:attributes@0.3.1
 scorpiusjs:base@0.3.1
 service-configuration@1.0.11
