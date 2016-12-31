@@ -90,7 +90,7 @@ scorpiusjs:core@0.3.1
 scorpiusjs:dictionary@0.3.1
 scorpiusjs:lang-en@0.3.1
 scorpiusjs:materialize@0.3.1
-scorpiusjs:materialize-admin-only@0.3.1
+scorpiusjs:materialize-admin-only@0.3.1_1
 service-configuration@1.0.11
 session@1.1.7
 sha@1.0.9

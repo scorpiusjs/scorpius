@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scorpiusjs:materialize-admin-only',
   summary: 'Load materialize and google fonts only in the admin',
-  version: "0.3.1",
+  version: "0.3.1_1",
   git: 'https://github.com/rwatts3/scorpius-admin-only-materialize'
 });
 
