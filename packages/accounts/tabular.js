@@ -10,5 +10,5 @@ if (Package['aldeed:tabular']) {
 }
 
 if (!Tabular) {
-	throw new Meteor.Error('scorpius', 'You must install tabular to use this package');
+	throw new Meteor.Error('scorpius:accounts', 'You must install tabular to use this package');
 }

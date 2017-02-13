@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'scorpiusjs:accounts',
 	summary: 'Scorpius accounts manager',
-	version: "0.3.1_3",
+	version: "0.3.1_4",
 	git: 'https://github.com/scorpiusjs/scorpius'
 });
 
@@ -23,8 +23,8 @@ Package.onUse(function(api) {
 	]);
 
 	api.use([
-		'aldeed:tabular@2.1.1', 'nicolaslopezj:tabular-materialize@1.4.1_4'
-	], {weak: true});
+		'nicolaslopezj:tabular-materialize@1.4.1_4'
+	]);
 
 	api.imply([
 		'accounts-base',
