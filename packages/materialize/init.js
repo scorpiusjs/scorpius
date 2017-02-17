@@ -48,32 +48,32 @@ if (Meteor.isClient) {
 	AutoForm.setDefaultTemplate('materialize');
 
 	Meteor.startup(function() {
-	Session.set('scorpius_autoformLoading', false);
+		Session.set('scorpius_autoformLoading', false);
 	});
 
 	AutoForm.addHooks(null, {
-	beginSubmit: function() {
-	  Session.set('scorpius_autoformLoading', true);
-	},
+		beginSubmit: function() {
+			Session.set('scorpius_autoformLoading', true);
+		},
 
-	endSubmit: function() {
-	  Session.set('scorpius_autoformLoading', false);
-	},
+		endSubmit: function() {
+			Session.set('scorpius_autoformLoading', false);
+		}
 	});
 
 	Template.registerHelper('scorpius_autoformLoading', function() {
-	return Session.get('scorpius_autoformLoading') ? 'disabled' : '';
+		return Session.get('scorpius_autoformLoading') ? 'disabled' : '';
 	});
 
 	Template.registerHelper('materializeHeader', function() {
-	return ReactiveTemplates.get('materializeHeader');
+		return ReactiveTemplates.get('materializeHeader');
 	});
 
 	Template.registerHelper('materializeContent', function() {
-	return ReactiveTemplates.get('materializeContent');
+		return ReactiveTemplates.get('materializeContent');
 	});
 
 	Template.registerHelper('materializeButtons', function() {
-	return ReactiveTemplates.get('materializeButtons');
+		return ReactiveTemplates.get('materializeButtons');
 	});
 }
