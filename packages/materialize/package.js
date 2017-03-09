@@ -60,6 +60,7 @@ Package.onUse(function(api) {
     'views/collections/update.html',
     'views/collections/update.js',
     'views/collections/delete.html',
+	'views/collections/buttons.js',
     'views/pages/index.html',
     'views/pages/create.html',
     'views/pages/delete.html',
