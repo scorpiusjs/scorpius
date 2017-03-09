@@ -31,7 +31,7 @@ Package.onUse(function (api) {
 		'init.js',
 		'tabular.js'
 	]);
-
+  
 	api.addFiles([
 		'views/layout/layout.html',
 		'views/layout/layout.js',
