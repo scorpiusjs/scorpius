@@ -2,6 +2,22 @@
 
 # Scorpius Changelog
 
+[![Version](https://img.shields.io/badge/Version-0.3.2-blue.svg?style=flat-square)]()
+[![Release](https://img.shields.io/badge/Release_Date-pending-orange.svg?style=flat-square)]()
+
+## Overview
+- [accounts]
+	- fixed issue where tabular was throwing an error.
+- [materialize]
+	- fixed styling updates.
+	- added profile image to user dropdown menu item.
+	- upgraded materialize to version 0.98.0
+	- moved materialize and scoped to admin area only.
+- [materialize-admin-only] `deprecated`
+	- deprecated this package as it is no longer needed.
+	- materialize is now scoped to the admin panel.
+
+---
 [![Version](https://img.shields.io/badge/Version-0.3.1-blue.svg?style=flat-square)]()
 [![Release](https://img.shields.io/badge/Release_Date-12/05/2016-orange.svg?style=flat-square)]()
 

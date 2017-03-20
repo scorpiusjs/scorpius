@@ -1,41 +1,42 @@
 <template name="scorpiusMaterializeSidebar">
-  <header class="materialize-sidebar">
-    <ul id="nav-mobile" class="side-nav fixed collapsible">
-      <li class="sidebar-brand no-padding">
-        <a href="{{ options 'homePath' '/' }}" class="waves-effect">
-          {{ options 'siteName' 'Admin' }}
-        </a>
-      </li>
-      {{# each adminLinks }}
-        {{> scorpiusMaterializeSidebarLink }}
-      {{/ each }}
-    </ul>
-  </header>
+	<header class="materialize-sidebar">
+		<ul id="nav-mobile" class="side-nav fixed collapsible">
+			<li class="sidebar-brand no-padding">
+				<a href="{{ options 'homePath' '/' }}" class="waves-effect">
+				{{ options 'siteName' 'Admin' }}
+				</a>
+			</li>
+			{{#each adminLinks }}
+				{{> scorpiusMaterializeSidebarLink }}
+			{{/each }}
+		</ul>
+	</header>
 </template>
+
 <template name="scorpiusMaterializeSidebarLink">
-  {{# if childs }}
-    <li class="no-padding">
-      {{# if routeName }}
-        <a class="collapsible-header collapse-link-right">
-          <i class="material-icons">arrow_drop_down</i>
-        </a>
-        <a href="{{ RouterLayerPathFor routeName }}">
-          {{ title }}
-        </a>
-      {{ else }}
-        <a class="collapsible-header waves-effect">{{ title }}</a>
-      {{/ if }}
-      <div class="collapsible-body">
-        <ul class="collapsible collapsible-accordion child-links">
-          {{# each childs }}
-            {{> scorpiusMaterializeSidebarLink }}
-          {{/ each }}
-        </ul>
-      </div>
-    </li>
-  {{ else }}
-    <li class="{{ RouterLayerIsActiveRoutePartial activeRouteRegex }} no-padding">
-      <a href="{{ RouterLayerPathFor routeName }}" class="waves-effect">{{ title }}</a>
-    </li>
-  {{/ if }}
+  {{#if childs }}
+	<li class="no-padding">
+		{{#if routeName }}
+			<a class="collapsible-header collapse-link-right">
+				<i class="material-icons">arrow_drop_down</i>
+			</a>
+			<a href="{{ RouterLayerPathFor routeName }}">
+				{{ title }}
+			</a>
+		{{ else }}
+			<a class="collapsible-header waves-effect">{{ title }}</a>
+		{{/if }}
+		<div class="collapsible-body">
+			<ul class="collapsible collapsible-accordion child-links">
+				{{#each childs }}
+					{{> scorpiusMaterializeSidebarLink }}
+				{{/each }}
+			</ul>
+		</div>
+	</li>
+	{{ else }}
+		<li class="{{ RouterLayerIsActiveRoutePartial activeRouteRegex }} no-padding">
+			<a href="{{ RouterLayerPathFor routeName }}" class="waves-effect">{{ title }}</a>
+		</li>
+	{{/if }}
 </template>
