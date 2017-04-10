@@ -1,5 +1,5 @@
 scorpius.links = {};
-scorpius.links = new Meteor.Collection(null); //scorpius.links._collection = scorpius.links; // Backwards compatibility
+scorpius.links = new Mongo.Collection(null); //scorpius.links._collection = scorpius.links; // Backwards compatibility
 
 scorpius.links.attachSchema(new SimpleSchema({
   index: {
