@@ -14,8 +14,9 @@ Template.scorpiusMaterializeHeaderContainer.onRendered(function() {
 Template.scorpiusMaterializeHeaderContainer.helpers({
 	userPicture() {
 		let defPicture = `https://avatars1.githubusercontent.com/u/12105945?v=3&s=200`;
-		let profilePicture = Meteor.users.findOne(Meteor.userId).profile.picture.url;
-		return profilePicture !== undefined ? profilePicture : defPicture;
+		const userProfile = Meteor.users.findOne(Meteor.userId).profile
+		let profilePicture = userProfile.picture && userProfile.picture.url;
+		return profilePicture ? profilePicture : defPicture;
 	}
 })
 
