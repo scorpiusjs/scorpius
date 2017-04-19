@@ -2,7 +2,7 @@
  * Definition of the config object
  */
 scorpius.config = {
-  collection: new Meteor.Collection('scorpius_config'),
+  collection: new Mongo.Collection('scorpius_config'),
   object: {}
 };
 

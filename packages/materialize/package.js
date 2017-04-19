@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'scorpiusjs:materialize',
 	summary: 'Materialize theme for scorpius admin',
-	version: "0.3.1_3",
+	version: "0.3.1_4",
 	git: 'https://github.com/scorpiusjs/scorpius'
 });
 
@@ -61,6 +61,7 @@ Package.onUse(function (api) {
 		'views/collections/update.html',
 		'views/collections/update.js',
 		'views/collections/delete.html',
+		'views/collections/buttons.js',
 		'views/pages/index.html',
 		'views/pages/create.html',
 		'views/pages/delete.html',

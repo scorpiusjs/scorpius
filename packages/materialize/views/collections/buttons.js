@@ -1,3 +1,3 @@
 ReactiveTemplates.onRendered('materializeButtons', function() {
-  Session.set("scorpius_autoformLoading", undefined);
+	Session.set("scorpius_autoformLoading", undefined);
 });
