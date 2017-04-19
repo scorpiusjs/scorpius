@@ -1,6 +1,6 @@
 scorpius.pages = {
   templates: {},
-  collection: new Meteor.Collection('pages'),
+  collection: new Mongo.Collection('pages'),
 };
 
 Roles.registerAction('pages.index', true);

@@ -75,7 +75,7 @@ scorpius.components = {
 // the long unfriendly scoping.
 scorpius.component = scorpius.components.components;
 
-ScorpiusComponentCollection = new Meteor.Collection("scorpius.components");
+ScorpiusComponentCollection = new Mongo.Collection("scorpius.components");
 if(Meteor.isClient) {
 	// fix problem with arrays in autoform
 	// autoform seems to not re-index arrays
