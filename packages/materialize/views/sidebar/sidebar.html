@@ -3,11 +3,7 @@
 		<ul id="nav-mobile" class="side-nav fixed collapsible">
 			<li class="sidebar-brand no-padding">
 				<a href="{{ options 'homePath' '/' }}" class="waves-effect">
-					{{#if options 'adminLogo'}}
-						{{{options 'adminLogo'}}}
-					{{else}}
-						{{options 'siteName' 'Admin'}}
-					{{/if}}
+					{{adminLogo}}
 				</a>
 			</li>
 			{{#each adminLinks }}
