@@ -3,4 +3,4 @@ Template.scorpiusMaterializeSidebar.onRendered(function() {
 	this.autorun( () => {
 		let depend = scorpius.links._collection.find().fetch();
 	});
-})
+});

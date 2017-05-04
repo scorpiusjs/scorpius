@@ -1,5 +1,6 @@
 Options.init('homePath');
 Options.init('siteName');
+Options.init('adminLogo');
 Options.init('materialize.headerColor');
 
 ReactiveTemplates.request('tabs', 'scorpiusMaterializeTabs');
