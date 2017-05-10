@@ -30,6 +30,7 @@ Join the community channel by following this link.
 
 
   [1]: https://raw.githubusercontent.com/scorpiusjs/graphics/master/logos/scorpiusjs-logo.png
+  
 =======
 
 > Modular admin solution built with Meteor http://scorpius.org `Site Coming Soon ...`
