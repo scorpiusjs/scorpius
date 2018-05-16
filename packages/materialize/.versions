@@ -50,7 +50,7 @@ jquery@1.11.10
 launch-screen@1.1.1
 less@2.7.11
 livedata@1.0.18
-local-test:scorpiusjs:materialize@0.3.3
+local-test:scorpiusjs:materialize@0.3.4
 localstorage@1.2.0
 logging@1.1.19
 matb33:collection-hooks@0.8.4
@@ -95,7 +95,7 @@ scorpiusjs:config@0.3.1
 scorpiusjs:core@0.3.1
 scorpiusjs:dictionary@0.3.1
 scorpiusjs:lang-en@0.3.1
-scorpiusjs:materialize@0.3.3
+scorpiusjs:materialize@0.3.4
 server-render@0.3.0
 service-configuration@1.0.11
 session@1.1.7

@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'scorpiusjs:materialize',
 	summary: 'Materialize theme for scorpius admin',
-	version: "0.3.3",
+	version: "0.3.4",
 	git: 'https://github.com/scorpiusjs/scorpius'
 });
 
