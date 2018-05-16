@@ -2,6 +2,7 @@ Options.init('homePath');
 Options.init('siteName');
 Options.init('adminLogo');
 Options.init('materialize.headerColor');
+Options.init('materialize.version', '0.98.0');
 
 ReactiveTemplates.request('tabs', 'scorpiusMaterializeTabs');
 
